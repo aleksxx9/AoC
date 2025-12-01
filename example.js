@@ -11,8 +11,8 @@ fetch(`https://adventofcode.com/2025/day/${day}/input`, {
 })
   .then(res => res.text())
   .then(data => {
+
     let input = data.split('\n').filter(val => val)
-input = ``.split('\n');
 
     console.log(input)
   });
