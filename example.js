@@ -2,7 +2,9 @@ import fetch from 'node-fetch';
 import * as dotenv from 'dotenv';
 dotenv.config()
 
-fetch('https://adventofcode.com/20xx/day/x/input', {
+const day = 1;
+
+fetch(`https://adventofcode.com/2025/day/${day}/input`, {
   headers: {
     cookie: process.env.ID
   }
